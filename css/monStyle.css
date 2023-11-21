@@ -1,0 +1,43 @@
+/** body **/
+* {
+    font-family: "nomADonner", serif;
+}
+
+.dash {
+    background: url(../images/post.jpg) fixed center/cover;
+    height: 100vh;
+}
+
+.my-row{
+    margin-bottom: 15px;
+}
+
+
+/* masquer les label, inpute, select et button */
+
+.l_1,.l_2,.l_3,.l_4,.l_5,._btn{
+    display: none;
+}
+
+@media screen and (max-width: 799px) {
+    .panel-body {
+        padding: 0;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .panel-body {
+        padding: 0;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+   
+}
